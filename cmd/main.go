@@ -1,7 +1,6 @@
 package main
 
 import (
-	"logrus"
 	"os"
 
 	"github.com/StormBeaver/todo-app"
