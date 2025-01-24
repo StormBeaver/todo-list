@@ -5,5 +5,6 @@ migrations:
 	go run ./cmd/migrator
 
 run: docker_postgres migrations
+	echo DB_PASSWORD=qwerty > .env
 	go run ./cmd/main.go
 
